@@ -1,0 +1,22 @@
+#include <iostream>
+
+int main() {
+    // Declarar variables para los dos números y para la suma
+    int numero1, numero2, suma;
+
+    // Solicitar al usuario que ingrese el primer número
+    std::cout << "Introduce el primer número: ";
+    std::cin >> numero1;
+
+    // Solicitar al usuario que ingrese el segundo número
+    std::cout << "Introduce el segundo número: ";
+    std::cin >> numero2;
+
+    // Realizar la suma
+    suma = numero1 + numero2;
+
+    // Mostrar el resultado
+    std::cout << "La suma es: " << suma << std::endl;
+
+    return 0;
+}
